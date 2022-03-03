@@ -1,0 +1,11 @@
+angle=[0,0,0];
+decimalAngle=input("ingrese ángulo: ");
+angle(1)=fix(decimalAngle);
+disp("grados: "+angle(1));
+m=(decimalAngle-angle(1))*60
+angle(2)=fix(m);
+disp("minutos: "+angle(2));
+angle(3)=(m-angle(2))*60;
+
+
+
